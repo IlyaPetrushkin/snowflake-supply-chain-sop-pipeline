@@ -19,7 +19,6 @@ Projektissa sovelletaan modernia ELT-arkkitehtuuria, jossa data erotetaan raakad
 - **`SUPPLY_CHAIN_PROJECT.RAW_DATA.SUPPLY_CHAIN_RAW`**: Alkuperäinen raakadata.
 - **`SUPPLY_CHAIN_PROJECT.ANALYTICS.vw_sop_inventory_health`**: SQL-logiikalla luotu analytiikkanäkymä.
 
-*(Lisää tähän väliin halutessasi kuvakaappaus Snowflaken vasemmasta sivupalkista, jossa näkyy tietokantapuu)*  
 ![Tietokannan rakenne](database_structure.png)
 
 ## S&OP Liiketoimintalogiikka (SQL Transformation)
@@ -31,7 +30,6 @@ Käytin SQL:n `CASE WHEN` -logiikkaa luokittelemaan tuotteet automaattisesti kol
 ## Tulokset ja esikatselu
 Tältä valmis jalostettu data näyttää Snowflake-ympäristössä suoritetun ad-hoc-haun jälkeen. Kysely palauttaa suoraan vain ne tuotteet, joiden kohdalla varastosaldo on hälyttävän matala:
 
-*(Lisää tähän väliin ottamasi kuvakaappaus Snowflaken kyselytuloksista)*  
 ![Snowflake Query Preview](dashboard_preview.png)
 
 ## SQL-skriptit
