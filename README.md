@@ -1,6 +1,6 @@
 # Snowflake Supply Chain & S&OP Analytics Project
 
-Tämä projekti on luotu osaksi hakuprosessia Data Analyst (Part-time) -tehtävään. Projektissa rakennetaan moderni ELT-dataputki (Extract, Load, Transform) Snowflake-ympäristöön hyödyntäen Kagglen toimitusketjudataa.
+Projektissa rakennetaan moderni ELT-dataputki (Extract, Load, Transform) Snowflake-ympäristöön hyödyntäen Kagglen toimitusketjudataa.
 
 ## Projektin tavoite
 Projektin tavoitteena on harmonisoida raakadataa ja luoda liiketoimintalogiikkaa myynnin ja toiminnan suunnittelun (S&OP) tueksi. Erityisenä painopisteenä on varastotilanteen kriittisyyden ja logistiikan seuranta.
